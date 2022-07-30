@@ -66,21 +66,20 @@
             <p class="signup-items">Sign up for news and information from G64 group to download our FREE resource!</p><br>
             <p>We promise to protect your privacy, we'll never spam you, and you can opt out at any time. Really.</p><br>
             <p class="signup-items">* all fields are required *</p><br>
-            <form action="">
+            <form action="form-handler.php" method="post">
             <div class="name-input">
-                <input class="hover" type="text" name="" placeholder="First Name">
-                <input class="hover" type="text" name="" placeholder="Second Name">
+                <input class="hover" type="text" name="name" placeholder="Name">
+                <input class="hover" type="text" name="email" placeholder="Email">
             </div>
-            <input class="signup-items hover" type="text" name="" placeholder="Email">
-            <div class="name-input">
-                <input class="checkbox" type="checkbox" name="" id="">
-                <label for=""> Yes! Please send me news and information from G64 Group</label>
-            </div>
-            <button class="btn">Subscribe</button>
+            <input class="signup-items hover" type="email" name="subject" placeholder="Subject">
+            <textarea name="" class="signup-items hover" name="message" placeholder="Message" cols="80" rows="8"></textarea>
+            <button type="submit" class="btn">Subscribe</button>
+        </div>
         </form>
         </div>
     </div>
     <div class="footer">
+
         <h2>About Us</h4>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-facebook"></i>
