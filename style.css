@@ -253,14 +253,26 @@ nav .fa{
     background-color:#eceef1;
     border:5px solid #f9e2e2;
     padding:6vh;
+    box-sizing: border-box;
 }
 
 .signup-items{
     padding: 1%;
 }
-
+.message{
+    height: 30vh;
+}
 .container input{
-    width: 100%;
+    width: 90%;
+    padding: 15px;
+    font-size: 17px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container textarea{
+    width: 90%;
     padding: 15px;
     font-size: 17px;
     margin-bottom: 17px;
