@@ -123,7 +123,7 @@ nav .fa{
         max-width: 100%;
     }
     .text-box h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .text-box p {
         font-size: 8px;
@@ -313,4 +313,7 @@ nav .fa{
 }
 .footer h3{
     margin-top: 3vh;
+}
+html{
+    scroll-behavior: smooth;
 }
